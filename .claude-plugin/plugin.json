@@ -1,0 +1,10 @@
+{
+  "name": "feed-scout",
+  "version": "0.1.0",
+  "description": "Helps you keep up with a busy group chat: reads what was shared and tells you what is worth your time.",
+  "author": {
+    "name": "roeibh"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/roeibh/feed-scout"
+}

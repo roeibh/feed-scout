@@ -1,0 +1,14 @@
+[
+ {
+  "JID": "120363400000000001@g.us",
+  "Name": "Example Pod",
+  "OwnerJID": "15550100000@s.whatsapp.net",
+  "CreatedAt": "2026-10-20T10:00:00Z"
+ },
+ {
+  "JID": "120363400000000002@g.us",
+  "Name": "Example Family",
+  "OwnerJID": "15550100099@s.whatsapp.net",
+  "CreatedAt": "2025-01-01T10:00:00Z"
+ }
+]

@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: morning-scan-mixed-feed
+expected_outcome: |
+  An offline morning scan over a synthetic group. The strong on-topic CI post gets comment + repost, once,
+  though two members shared it. Slop, crypto (ignored topic) and VIP junk are skipped. The strong off-topic
+  pricing post is a like. The Hebrew on-topic post gets a comment with an English draft and an English gloss.
+  The VIP's middling on-call post is bumped to comment. The lnkd.in share is an unreadable lettered row.
+  The user's own post is not suggested. No draft uses the [private] Bazel fact. Nothing is sent or posted.
+  history.jsonl records the shown posts.
+context:
+  scaffold_script: place-files.sh

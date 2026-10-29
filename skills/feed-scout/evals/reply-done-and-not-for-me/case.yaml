@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: reply-done-and-not-for-me
+expected_outcome: |
+  Replies to yesterday's scan, in a fresh conversation. #1 is logged as done with the posted text, and the gap
+  between the stored draft and the posted text becomes a dated voice line in profile.md's Learned section.
+  #3 is skipped with reason "not for me", and its topic (SaaS pricing) is removed or lowered in a dated Learned
+  line. #2 is untouched. The reply shows a one-line Learned summary. No new scan runs.
+context:
+  scaffold_script: place-files.sh
