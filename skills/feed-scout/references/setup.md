@@ -70,7 +70,7 @@ This step reads many files. If the Agent tool exists, give it to one subagent th
 ### LinkedIn → `[public]`
 
 1. Ask for the user's LinkedIn profile URL once, as a plain question. Save it in the profile; it is how the scan spots the user's own posts.
-2. Read the profile with WebFetch, logged out, using the prompt below. If that comes back unreadable, read it in Chrome. Take the headline, About, and experience. Setup reads don't count toward a scan's 5 Chrome reads.
+2. Read the profile with WebFetch, logged out, using the prompt below. If that comes back unreadable, or without a headline, or with the About cut off (logged-out pages often hide both), read it in Chrome. Take the headline, About, and experience. Setup reads don't count toward a scan's 5 Chrome reads.
 3. For voice, read 2 or 3 of the user's recent posts or comments. In Chrome open `<profile URL>/recent-activity/all/` (or `/recent-activity/comments/`) and read the page text. Without Chrome, ask the user to paste 2 or 3. Note how they write: sentence length, how they open, how they ask questions, emoji and hashtag habits. Keep one or two short samples.
 
 In Chrome, read only. Don't click or type anything on LinkedIn. Close the tab when done.
