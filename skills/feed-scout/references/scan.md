@@ -255,7 +255,7 @@ What goes in `run`:
 | Reply | Do | Say (example) |
 |---|---|---|
 | `done 1 3` | `mark done 1 3` | `Logged #1 and #3 as done.` |
-| `done 3: <what you posted>` | `mark done 3 --text '<text>'`, then compare with the draft | `Logged #3 as done. You turned my question into a statement and dropped the line about your team.` then `Learned: voice: say the number you'd want.` |
+| `done 3: <what you posted>` | `mark done 3 --text '<text>'`, then compare with the draft. If their comment asks something the post already answers, say so in one line, since a question the author already answered reads as not having read the post | `Logged #3 as done. You turned my question into a statement and dropped the line about your team.` then `Learned: voice: say the number you'd want.` and, when it applies, `Heads-up: the post already says the cache hit rate was 31%.` |
 | `done a` | `mark done a` | `Logged a as done. I never read it, so there's nothing to learn from it.` |
 | `not for me 8` | `mark not-for-me 8`, then a Learned line | `Got it, fewer posts like #8. Learned: −SaaS pricing.` |
 | `more like 2` | add or raise the topic in `profile.md` | `Got it. US hiring goes on your Want list. Learned: +US hiring.` Already there: `Streaming is already on your Want list, so it moves up. Learned: ↑streaming.` |
