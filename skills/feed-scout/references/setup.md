@@ -114,7 +114,7 @@ Example questions, made up:
 
 ## 4. Pick groups
 
-Run `python3 -I <scout> groups --days 90`, with the Bash tool's `timeout` at 600000 (it reads every group). Show a numbered list. Groups with `pod_like: true` (5 or more LinkedIn links in the synced history) come first, then the rest. Any group can be picked.
+Run `python3 -I <scout> sync` first: `groups` reads only what wacli has stored, so a group that got busy since the last sync would look empty. Then run `python3 -I <scout> groups --days 90`. Give both the Bash tool's `timeout` at 600000 (they touch every group). Show a numbered list. Groups with `pod_like: true` (5 or more LinkedIn links in the synced history) come first, then the rest. Any group can be picked.
 
 ```
 Groups with 5+ LinkedIn links in your synced history:
