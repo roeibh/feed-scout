@@ -1,0 +1,14 @@
+{
+  "name": "feed-scout",
+  "description": "feed-scout, a Claude Code plugin that helps you keep up with a busy group chat.",
+  "owner": {
+    "name": "roeibh"
+  },
+  "plugins": [
+    {
+      "name": "feed-scout",
+      "description": "Helps you keep up with a busy group chat: reads what was shared and tells you what is worth your time.",
+      "source": "./"
+    }
+  ]
+}

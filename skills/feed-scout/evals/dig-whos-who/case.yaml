@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: dig-whos-who
+expected_outcome: |
+  "Who works at Google?" over synthetic group history. Matches come from three sources: a WhatsApp display name
+  (Yael Kaplan | Google NYC), the user's contact name (Erez Google), and a LinkedIn headline stored in history
+  (Michal Rosen). A phone-only member who shared a Google engineer's post is at most a "maybe". A former employee
+  is not a current match. No phone numbers for named members, and no members without a Google signal.
+context:
+  scaffold_script: place-files.sh

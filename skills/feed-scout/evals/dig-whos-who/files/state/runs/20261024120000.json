@@ -1,0 +1,60 @@
+{
+ "now": "2026-10-24T12:00:00Z",
+ "groups_scanned": [
+  "120363400000000001@g.us"
+ ],
+ "run": [
+  {
+   "key": "activity:7400000000000000032",
+   "ids": [
+    "activity:7400000000000000032"
+   ],
+   "url": "https://www.linkedin.com/posts/michal-rosen_eng-mgmt-activity-7400000000000000032-MiCh",
+   "group_jid": "120363400000000001@g.us",
+   "sharer": "Michal Rosen",
+   "status": "seen",
+   "n": 1,
+   "action": "like",
+   "scores": {
+    "v": [
+     1,
+     2,
+     1,
+     1
+    ],
+    "fit": 1,
+    "flags": []
+   },
+   "topic": "engineering management",
+   "author": "Michal Rosen",
+   "headline": "Engineering Manager at Google",
+   "first_line": "What I changed in my first 90 days managing managers."
+  },
+  {
+   "key": "activity:7400000000000000033",
+   "ids": [
+    "activity:7400000000000000033"
+   ],
+   "url": "https://www.linkedin.com/posts/omer-dan_search-infra-activity-7400000000000000033-SeAr",
+   "group_jid": "120363400000000001@g.us",
+   "sharer": "+1 555-010-0033",
+   "status": "seen",
+   "n": 2,
+   "action": "like",
+   "scores": {
+    "v": [
+     2,
+     1,
+     1,
+     1
+    ],
+    "fit": 1,
+    "flags": []
+   },
+   "topic": "search infrastructure",
+   "author": "Omer Dan",
+   "headline": "Staff Software Engineer at Google",
+   "first_line": "How we cut search index build time in half."
+  }
+ ]
+}
