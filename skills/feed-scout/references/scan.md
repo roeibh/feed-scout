@@ -209,12 +209,12 @@ Rules behind the example:
 - **Action cell:** `comment + repost with your take`, `comment`, or `like`. Add `(VIP ↑)` when the VIP bump changed it.
 - **Comment blocks:** one per comment row, numbered like the row. Format and rules in `references/drafts.md`.
 - **Unreadable rows:** after the real suggestions, 3 at most, lettered `a`, `b`, `c` so they never clash with the numbers `more` adds. Show the sharer, the share time, the link, and the WhatsApp text (or link-preview text, if the script returns it). Show WhatsApp text that isn't in English as an English gloss. Count the rest in the Chrome line. Never drop a post silently.
-- **Skipped line:** the reason names exactly as in the skip rules: `thin`, `ignored topic`, `off-topic`, `bait/formula`, plus `seen before`. Largest count first; leave out zeros. Own posts aren't counted.
+- **Skipped line:** the reason names exactly as in the skip rules: `thin`, `ignored topic`, `off-topic`, `bait/formula`, plus `seen before`. Largest count first; leave out zeros. Own posts aren't counted. Nothing skipped: `Skipped: none.`
 - **Chrome line:** always there. Other shapes: `Chrome reads: 0 of 5. WebFetch read every post.`, `Chrome reads: none, because Claude in Chrome isn't connected. 4 posts are unreadable: a–c above and 1 more.`, `Chrome reads: none (offline mode).`
 - **Ignored links line:** non-LinkedIn links, plus LinkedIn pages that aren't posts when there are any: `Ignored 7 non-LinkedIn links and 2 LinkedIn pages that aren't posts.` Leave it out when both are 0.
 - **More line:** `N more passed — say "more"`, where N is the rows recorded `pending` with scores this run. Unread ones aren't in N; the Chrome line already counts them. Leave the line out when N is 0.
 - **Also in the group:** `job_links` count as job posts. Sort `questions` (messages with a question mark from others, inside this scan's windows) into intro ask, help ask, hiring, or other. Name only the first three kinds. Leave the line out when all are 0.
-- **Reply hint:** always the last line.
+- **Reply hint:** the last line, except for the planted-instruction heads-up from SKILL.md, which comes after it.
 
 ## 5. Record
 
